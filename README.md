@@ -26,12 +26,14 @@ python histogram_matching.py <source_img>
 
 Select a region of interest
 
-![image](https://github.com/Tyrxn/histMatch/assets/106474487/f885e18b-1561-447f-9ea9-1f23b352b7bf)
+![image](https://github.com/Tyrxn/histMatch/assets/106474487/a26efdc5-5dfc-4c71-b8d0-f3872d618cfa)
+
 
 Press 'q' to exit GUI
 
 # Output
-![image](https://github.com/Tyrxn/histMatch/assets/106474487/27a132bb-9a8a-449d-9782-77308570a88c)
+![image](https://github.com/Tyrxn/histMatch/assets/106474487/6b2f0aac-e402-41fa-b2ec-8cfb24271101)
+
 
 
 Note:
