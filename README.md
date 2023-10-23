@@ -4,25 +4,36 @@ histMatch is a versatile tool designed for processing satellite imagery, ensurin
 
 # Requirements
 Python 3.6 or higher
-# Dependencies
-Make sure to install the required dependencies by setting up a virtual environment and using the provided requirements.txt:
-
-python3 -m venv histMatch_env
-source histMatch_env/bin/activate  # On Windows, use: histMatch_env\Scripts\activate
-pip install -r requirements.txt
 
 # Installation
 Clone this repository to your local machine:
 
 git clone https://github.com/Tyrxn/histMatch
+
 cd histMatch
 
-Set up the virtual environment and install the necessary dependencies as mentioned in the "Dependencies" section.
+# Dependencies
+Set up the virtual environment and install the necessary dependencies.
 
-Once dependencies are installed, you're ready to use histMatch with satellite imagery of your choice.
+python -m venv myenv
+
+.\myenv\Scripts\activate
+
+pip install -r requirements.txt
 
 # Usage
 python histogram_matching.py <source_img>
 
-Note
+Select a region of interest
+
+![image](https://github.com/Tyrxn/histMatch/assets/106474487/f885e18b-1561-447f-9ea9-1f23b352b7bf)
+
+Press 'q' to exit GUI
+
+# Output
+![image](https://github.com/Tyrxn/histMatch/assets/106474487/27a132bb-9a8a-449d-9782-77308570a88c)
+
+
+Note:
+
 While histMatch was initially developed with QGIS in mind, its design ensures compatibility with a broad range of satellite imagery, making it a suitable tool for various geospatial applications.
