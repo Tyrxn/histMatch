@@ -3,7 +3,7 @@
 histMatch is a versatile tool designed for processing satellite imagery, ensuring consistent color gradients across images. By matching the color distributions of two images, it allows for a more uniform and accurate land classification. Enhancing satellite imagery by minimizing color variation, histMatch amplifies the ability to differentiate land cover types. This robust functionality finds its significance in diverse applications such as environmental management, urban planning, flood modeling, and more.
 
 # Requirements
-Python 3.6 or higher
+Python 3.8 or higher
 
 # Installation
 Clone this repository to your local machine:
